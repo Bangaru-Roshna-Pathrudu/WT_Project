@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>HOME</title>
+    <style>
+      body{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: #534d88;
+      }
+      .bod{
+        background-color: white;
+      }
+      .jumbotron{
+        background-color: #39c0a1;
+        color: white;
+      }
+      .btn{
+        background-color: #434af5;
+      }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display">Reach Out</h1>
+          <p class="lead">Helping hand to common people.</p>
+        </div>
+      </div>
+    <div class="row">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-6 bod">
+            <ul class="nav nav-tabs">
+                <li class="active">
+                  <a data-toggle="tab" href="#login">SIGN IN</a>
+                </li>
+                <li>
+                  <a href="#reg" data-toggle="tab">REGISTER</a>
+                </li>
+              </ul>
+              <div class="tab-content">
+                <div id="login" class="tab-pane fade in active">
+            <form action="" method="">
+                    <div class="form-group">
+                      <label for="Phno">Phone Number</label>
+                      <input type="number" class="form-control" id="Phno" placeholder="Enter number">
+                    </div>
+                    <div class="form-group">
+                      <label for="Pw">Password</label>
+                      <input type="password" class="form-control" id="Pw" placeholder="Password">
+                    </div>
+                    <div style="text-align: center;"><button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                    
+                    <br><br>
+            </form>
+            </div>
+            <div id="reg" class="tab-pane fade">
+            <form action="" method="">
+                <div class="form-row">
+                    <div class="col-sm-2">
+                      <label for="name">Name</label>
+                    </div>
+                    <div class="col-sm-5">
+                      <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col-sm-5">
+                      <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gen" id="m" value="option1" checked>
+                    <label class="form-check-label" for="m">
+                      Male
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gen" id="f" value="option2">
+                    <label class="form-check-label" for="f">
+                      Female
+                    </label>
+                  </div>
+                  <div class="form-check disabled">
+                    <input class="form-check-input" type="radio" name="gen" id="n" value="option3">
+                    <label class="form-check-label" for="n">
+                      I don't wish to reveal
+                    </label>
+                  </div>
+                  <div class="form-group">
+                    <label for="dob">Phone Number</label>
+                    <input type="date" class="form-control" id="dob" placeholder="Enter date of birth">
+                  </div>
+                  <div class="form-group">
+                    <label for="add">Address</label>
+                    <input type="text" class="form-control" id="add" placeholder="Enter address">
+                  </div>
+                  <div>
+                    <label for="disa">Disability</label>
+                    <input type="radio" name="disa" id="y">
+                    <label for="y" name="dis">Yes</label>
+                    <input type="radio" name="disa" id="n">
+                    <label for="n" name="ndis">No</label>
+                    <br>
+                  </div>
+                <div class="form-group">
+                  <label for="Phno">Phone Number</label>
+                  <input type="number" class="form-control" id="Phno" placeholder="Enter number">
+                </div>
+                <div class="form-group">
+                  <label for="Pw">Password</label>
+                  <input type="password" class="form-control" id="Pw" placeholder="Password">
+                </div>
+                <div class="form-group">
+                  <label for="cpw">Confirm Password</label>
+                  <input type="password" class="form-control" id="cpw" placeholder="Confirm Password">
+                </div>
+                <div style="text-align: center;">
+                  <button type="submit" class="btn btn-primary"><a href="Phome.html" target="_blank" style="text-decoration: none; color: inherit;">Submit</a></button>
+       
+                </div>
+                <br><br>
+                 </form>
+        </div>
+    </div>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+    </div>
+</body>
+</html>
